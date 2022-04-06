@@ -5,6 +5,6 @@
 - `php artisan serve`
 
 # Database
-- DB Name: imagetestapp1
+- DB Name: `imagetestapp1`
 
 Edit `.env` to your liking
