@@ -21,7 +21,7 @@
                 </div>
                 <div class="mb-6">
                     <label for="email" class="block mb-2">E-Mail</label>
-                    <input type="email" name="email" id="email" class="border-2 border-gray-400 p-2 w-full rounded-md @error('email') border-red-500 @enderror" value="{{ old('email') }}>
+                    <input type="email" name="email" id="email" class="border-2 border-gray-400 p-2 w-full rounded-md @error('email') border-red-500 @enderror" value="{{ old('email') }}">
                     @error('email')
                         <p class="text-red-500 text-xs italic">{{ $message }}</p>
                     @enderror
