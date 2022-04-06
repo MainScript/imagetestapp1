@@ -18,5 +18,5 @@ Route::post('/login', [LoginController::class, 'store']);
 
 Route::post('/logout', [LogoutController::class, 'index'])->name('logout');
 
-Route::get('/posts', [PostController::class, 'index'])->name('posts');
+Route::get('/posts', [PostController::class, 'index'])->name('posts')->middleware('auth');
 Route::post('/posts', [PostController::class, 'store']);
