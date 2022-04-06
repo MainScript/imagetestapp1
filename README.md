@@ -4,6 +4,11 @@
 - `php artisan migrate`
 - `php artisan serve`
 
+# How to use
+- Register a user
+- create a post
+- enjoy
+
 # Database
 - DB Name: `imagetestapp1`
 
